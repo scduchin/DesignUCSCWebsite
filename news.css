@@ -1,0 +1,89 @@
+/*
+    by default, header tags have a small margin, which makes them annoying to work with.
+    here, I make sure they don't have margins
+*/
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+.top-bar {
+    height: 110px;
+    width: 100%;
+
+    /*
+        use a flex box to make sure the contents of the box are spaced as far apart as possible
+        and vertically aligned at the bottom
+    */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    /* 15 pixels of space between the text and the edge of the box */
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-content {
+    padding: 30px;
+}
+
+.articles-container {
+    margin-top: 20px;
+}
+
+.articles-bottom {
+    margin-bottom: 40px;
+}
+
+.w100 {                   /* this allows the penguin image to expand the whole third column */
+    width: 100%;
+}
+
+.fittop{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.padded-column {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.article {
+    margin-top: 20px;
+    font-size: 21px;
+}
+
+.large-font{
+    font-size: 21px;
+}
+
+.italics {
+    font-style: italic;
+}
+
+.caption-size{
+    font-size: 30px;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+.gray-box {
+    background-color: rgb(211, 211, 211);
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.padded-margin {
+    margin-top: 20px;
+}
+
+.padded-large-margin{
+    margin-top: 40px;
+}
+
+.center{
+    text-align: center;
+}
